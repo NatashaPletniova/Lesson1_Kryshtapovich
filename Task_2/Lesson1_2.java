@@ -2,7 +2,7 @@
 public class Lesson1_2 {
 
 	public static void main(String[] args){
-		
+		// отдельные, логически завершенные участки кода следует оформлять отдельными методами
 			double r = 4;
 			double s, l;
 		
@@ -17,7 +17,7 @@ public class Lesson1_2 {
 	        else
 	        {
 	            System.out.println("Radius could not be negative or equal to zero!");
-	            return;
+	            return;// лишний оператор, приложение и так завершит свою работу
 	        }
 
 
